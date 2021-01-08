@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "kubiki-apple-otrazhenie-belyy.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "kubiki-apple-otrazhenie-belyy@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "kubiki-apple-otrazhenie-belyy@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
