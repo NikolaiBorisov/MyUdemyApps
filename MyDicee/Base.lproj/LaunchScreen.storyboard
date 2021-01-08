@@ -16,19 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchDice" translatesAutoresizingMaskIntoConstraints="NO" id="rqV-Q4-Yls">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kubiki-apple-otrazhenie-belyy" translatesAutoresizingMaskIntoConstraints="NO" id="rqV-Q4-Yls">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="rqV-Q4-Yls" secondAttribute="bottom" id="Oye-cI-4hR"/>
-                            <constraint firstItem="rqV-Q4-Yls" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UZ7-3Q-qU4"/>
-                            <constraint firstItem="rqV-Q4-Yls" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aVV-Mt-8CL"/>
-                            <constraint firstItem="rqV-Q4-Yls" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="aig-nN-VNA"/>
-                            <constraint firstItem="rqV-Q4-Yls" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mp9-8C-9mc"/>
-                            <constraint firstItem="rqV-Q4-Yls" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zVF-lX-rVD"/>
+                            <constraint firstItem="rqV-Q4-Yls" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="3B9-Kc-4RE"/>
+                            <constraint firstAttribute="bottom" secondItem="rqV-Q4-Yls" secondAttribute="bottom" id="Wk8-cV-L9k"/>
+                            <constraint firstItem="rqV-Q4-Yls" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="aiy-JG-Atp"/>
+                            <constraint firstItem="rqV-Q4-Yls" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="rFN-a5-omi"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -38,9 +37,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchDice" width="233" height="233"/>
+        <image name="kubiki-apple-otrazhenie-belyy" width="350.5" height="397.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
