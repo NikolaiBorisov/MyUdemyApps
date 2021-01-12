@@ -13,6 +13,8 @@
 		FA6E332225AC7FB600AFEEEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6E332025AC7FB600AFEEEE /* Main.storyboard */; };
 		FA6E332425AC7FB800AFEEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6E332325AC7FB800AFEEEE /* Assets.xcassets */; };
 		FA6E332725AC7FB800AFEEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6E332525AC7FB800AFEEEE /* LaunchScreen.storyboard */; };
+		FA88EB3825ADBF22000E3C04 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA88EB3725ADBF22000E3C04 /* alarm_sound.mp3 */; };
+		FA88EB3C25ADC019000E3C04 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA88EB3B25ADC019000E3C04 /* D.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FA6E332325AC7FB800AFEEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA6E332625AC7FB800AFEEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA6E332825AC7FB800AFEEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA88EB3725ADBF22000E3C04 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		FA88EB3B25ADC019000E3C04 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				FA6E331E25AC7FB600AFEEEE /* ViewController.swift */,
 				FA6E332025AC7FB600AFEEEE /* Main.storyboard */,
 				FA6E332325AC7FB800AFEEEE /* Assets.xcassets */,
+				FA88EB3B25ADC019000E3C04 /* D.wav */,
+				FA88EB3725ADBF22000E3C04 /* alarm_sound.mp3 */,
 				FA6E332525AC7FB800AFEEEE /* LaunchScreen.storyboard */,
 				FA6E332825AC7FB800AFEEEE /* Info.plist */,
 			);
@@ -126,6 +132,8 @@
 			files = (
 				FA6E332725AC7FB800AFEEEE /* LaunchScreen.storyboard in Resources */,
 				FA6E332425AC7FB800AFEEEE /* Assets.xcassets in Resources */,
+				FA88EB3C25ADC019000E3C04 /* D.wav in Resources */,
+				FA88EB3825ADBF22000E3C04 /* alarm_sound.mp3 in Resources */,
 				FA6E332225AC7FB600AFEEEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
