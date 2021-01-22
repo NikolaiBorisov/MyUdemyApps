@@ -15,16 +15,19 @@ class RegisterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        emailTextField.layer.cornerRadius = 25
+        passwordTextField.layer.cornerRadius = 25
     }
     
     @IBAction func registerPressed(_ sender: UIButton) {
         if let email = emailTextField.text, let password  = passwordTextField.text {
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                 if let e = error {
-                    print(e)
+                    print(e.localizedDescription)
                 } else {
                     //Navigate to the ChatViewController
-                    self.performSegue(withIdentifier: "RegisterToChat", sender: self)
+                    self.performSegue(withIdentifier: K.registerSegue, sender: self)
                 }
             }
         }
